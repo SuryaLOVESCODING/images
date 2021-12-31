@@ -1,0 +1,5 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C5O3LHLO3VNUQLVLM700").setAdvancedMatchingAvailableProperties({"email":false,"phone_number":false});
+window[window["TiktokAnalyticsObject"]].instance("C5O3LHLO3VNUQLVLM700").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C5O3LHLO3VNUQLVLM700").setPixelInfo({status: 0, name: "ACE Site Pixel", advertiserID: "7019275491844554754", setupMode: 1, partner: "", is_onsite: false, enableAutoAM: false });
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("acefitness.org");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);

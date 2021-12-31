@@ -1,0 +1,2 @@
+"use strict";var activeBlogTopic;$(function(){activeBlogTopic=function(matchText){$(".widget__link-list li").filter(function(i,el){return $(el).find("a").text().toLowerCase().trim()==matchText.toLowerCase().trim()}).addClass("selected-topic")}});
+//# sourceMappingURL=maps/active-blog-topic.js.map

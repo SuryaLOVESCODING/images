@@ -1,0 +1,22 @@
+﻿(function () {
+    var cx = '002443720644516542879:b1ngobnwydy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+})();
+
+window.addEventListener('load', function () {
+    //replace default search text
+    var searchboxes = document.querySelectorAll("div.main-head__wrap .gsc-search-box.gsc-search-box-tools .gsc-input");
+    for (i = 0; i < searchboxes.length; i++) {
+        searchboxes[i].placeholder = 'Search ACE';
+    }
+    //hide default search icon
+    var searchbuttons = document.querySelectorAll(".gsc-search-button.gsc-search-button-v2");
+    for (i = 0; i < searchbuttons.length; i++) {
+        searchbuttons[i].setAttribute('src', '/images/trans.gif');
+    }
+});

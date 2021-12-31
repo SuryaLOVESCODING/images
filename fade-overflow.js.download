@@ -1,0 +1,2 @@
+"use strict";$(function(){$(".fade-overflow__trigger").each(function(index){$(this).on("click",function(e){e.preventDefault(),$(this).closest(".fade-overflow").toggleClass("fade-overflow--expanded")})})});
+//# sourceMappingURL=maps/fade-overflow.js.map
